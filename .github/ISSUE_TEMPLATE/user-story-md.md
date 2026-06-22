@@ -1,20 +1,23 @@
 ---
-name: user-story.md
-about: Describe this issue template's purpose here.
-title: ''
+name: User Story
+about: Create a user story
+title: ""
 labels: ''
 assignees: ''
-
 ---
 
-## User Story
-As a [role], I need [feature], so that [benefit].
+**As a** [role]
+**I need** [function]
+**So that** [benefit]
 
-## Acceptance Criteria
+### Details and Assumptions
+
+* [document what you know]
+
+### Acceptance Criteria
+
 ```gherkin
-Given [context]
-When [action]
-Then [outcome]
+Given [some context]
+When [certain action is taken]
+Then [the outcome is observed]
 ```
-
-## Additional Notes
